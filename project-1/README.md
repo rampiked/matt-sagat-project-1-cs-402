@@ -30,7 +30,11 @@ As mentioned above, the `testing.h/.cpp` files have various functions to help te
     - Similarly, `std::stable_sort(list.begin(),list.end())` and `std::stable_sort(list.begin(),list.end(),std::greater<>{})` stable sorts in descending order.
 
 ### Submission
-Your submission will be a Github repository.
+Your submission will be a Github repository. You have 2 options for this.
+1. Add me as a collaborator to your Github repository. My username is `alexander-r-block`. This options works if your repository is public or private.
+2. Send me a link to your repository. Note this only works if you make the repository public. 
+
+Note that once you have added me to your repository/sent me the repository link, I will be able to see your future projects as well, so you do not need to repeat this. Moving forward, project submissions will consist of me simply checking your Github repository for the last commit before the project deadline. I will also put in place a way for you to submit your project late should you wish to do so.
 
 ### Grading
 This project is worth the following amount of points.
