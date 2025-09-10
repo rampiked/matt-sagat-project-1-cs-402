@@ -10,7 +10,7 @@ In this project, you will implement various sorting algorithms discussed in clas
     - These have functions to help test your code; e.g., various functions to generate lists of varying length that you can try to sort. You can also add your own tests to these files.
 
 ### Due Date
-**Wednesday, September 25, 2025, by 11:59pm**
+**Wednesday, September 24, 2025, by 11:59pm**
 
 ### Writing Your Code
 This project is distributed through Github and you will write your code using git for version control. My advice to you is to commit early and commit often to your repository to accurately track your progress when writing your project solutions. 
