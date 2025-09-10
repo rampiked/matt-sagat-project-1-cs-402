@@ -3,11 +3,14 @@
 ## Project 1: Sorting
 In this project, you will implement various sorting algorithms discussed in class. This project contains the following files.
 - `Firstname_Lastname_project1.cpp`
-    - This is your main file and where all of your code will be implemented. This file also contains relevnat instructions for implementing your code.
+    - This is your main file and where all of your code will be implemented. This file also contains relevant instructions for implementing your code.
 - `Firstname_Lastname_project1.h`
     - This is the header file for your main file. If you add any helper functions, please be sure to add the appropriate function prototypes to this file.
 - `testing.h` and `testing.cpp`
     - These have functions to help test your code; e.g., various functions to generate lists of varying length that you can try to sort. You can also add your own tests to these files.
+
+### Due Date
+**Wednesday, September 25, 2025, by 11:59pm**
 
 ### Writing Your Code
 This project is distributed through Github and you will write your code using git for version control. My advice to you is to commit early and commit often to your repository to accurately track your progress when writing your project solutions. 
@@ -24,14 +27,14 @@ I will be compiling your code using `clang++` (see: ) with the parameter `-std=c
 As mentioned above, the `testing.h/.cpp` files have various functions to help test your code. For additional help in testing your code, you can consider the following functions
 - `std::is_sorted`: this function returns a bool representing if a list is sorted or not. Let `list` be a vector (NOT a pointer to a vector). Then,
     - `std::is_sorted(list.begin(),list.end())` returns true if and only if `list` is sorted in ascending order;
-    - `std::is_sorted(list.begin(),list.end(),std::greater<>{})` returns true if and only if `list`  is sorted in descending order.
+    - `std::is_sorted(list.begin(),list.end(),std::greater<>{})` returns true if and only if `list` is sorted in descending order.
 - `std::sort` and `std::stable_sort` are the built-in sorting functions. You can use them to check the correct order of a list. If `list` is the vector you want to sort, then
     - `std::sort(list.begin(),list.end())` sorts `list` in ascending order, and `std::sort(list.begin(),list.end(),std::greater<>{})` sorts in descending order.
     - Similarly, `std::stable_sort(list.begin(),list.end())` and `std::stable_sort(list.begin(),list.end(),std::greater<>{})` stable sorts in descending order.
 
 ### Submission
 Your submission will be a Github repository. You have 2 options for this.
-1. Add me as a collaborator to your Github repository. My username is `alexander-r-block`. This options works if your repository is public or private.
+1. Add me as a collaborator to your Github repository. My username is `alexander-r-block`. This option works if your repository is public or private.
 2. Send me a link to your repository. Note this only works if you make the repository public. 
 
 Note that once you have added me to your repository/sent me the repository link, I will be able to see your future projects as well, so you do not need to repeat this. Moving forward, project submissions will consist of me simply checking your Github repository for the last commit before the project deadline. I will also put in place a way for you to submit your project late should you wish to do so.
