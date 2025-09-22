@@ -545,13 +545,6 @@ void radix_sort(vector<T> &list, unsigned int base, bool descending) {
 
 
 int main() {
-    /**** STUDENT CODE HERE ****/ 
-    //vector<int> test_list {33, 51, 42, 19, 21, 83, 31, 31, 99, 9, 11};
-    vector<int> test_list;
-    for(int i = 0; i < 10000; i++){
-        test_list.push_back(rand() % 10000);
-    }
-    printList(test_list, "No Sort");
     /***** DO NOT MODIFY BELOW THIS LINE *****/
     /*** INSTRUCTIONS ***
      *
@@ -574,12 +567,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
