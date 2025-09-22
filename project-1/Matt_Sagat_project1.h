@@ -2,10 +2,11 @@
 #include <random>
 #include <concepts>
 #include <type_traits>
+#include <iostream>
 
 
-#ifndef FIRSTNAME_LASTNAME_PROJECT1
-#define FIRSTNAME_LASTNAME_PROJECT1
+#ifndef Matt_Sagat_PROJECT1
+#define Matt_Sagat_PROJECT1
 
 using namespace std;
 
@@ -19,7 +20,13 @@ unsigned int get_rand_index(unsigned int len) {
 
 
 /*** STUDENT HELPER FUNCTIONS HERE ***/
-
+template<typename T>
+void printList(vector<T> &list, string sortType){
+    std::cout << "Printing entire list with " << sortType << ":" << std::endl;
+    for(int i = 0; i < list.size(); i++){
+        std::cout << list[i] << std::endl;        
+    }
+}
 
 
 /*** END STUDENT HELPER FUNCTIONS ***/
